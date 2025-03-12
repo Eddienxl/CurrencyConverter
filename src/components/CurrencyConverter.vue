@@ -74,11 +74,11 @@
     data() {
       return {
         currencies: {},
-        fromCurrency: "", // Kosong di awal
-        toCurrency: "", // Kosong di awal
-        amount: null, // Kosong di awal
+        fromCurrency: "",
+        toCurrency: "",
+        amount: null,
         convertedAmount: null,
-        base: "USD", // Menambahkan nilai default
+        base: "USD",
         date: "",
       };
     },
